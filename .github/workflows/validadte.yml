@@ -5,7 +5,7 @@ on:
     inputs:
       validationDir:
         description: 'The directory to be validated.'
-        required: true
+        default: ''
 jobs:
   validate:
     runs-on: ubuntu-latest
